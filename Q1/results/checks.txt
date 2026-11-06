@@ -1,0 +1,3 @@
+CHECK,shared_log_records=400,PASS
+PASS: all ticket builders produce identical content
+Measured experiments: 9; each includes 3 warmups + 5 raw runs.

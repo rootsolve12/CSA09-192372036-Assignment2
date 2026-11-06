@@ -1,0 +1,10 @@
+experiment,operations,mean_elapsed_ns,mean_ns_per_operation
+StringPlus_tickets1_fields5,1,9572.4,9572.400
+StringBuilder_tickets1_fields5,1,6445.6,6445.600
+StringBuffer_tickets1_fields5,1,2457.6,2457.600
+StringPlus_tickets10000_fields50,10000,44045213.0,4404.521
+StringBuilder_tickets10000_fields50,10000,19895016.2,1989.502
+StringBuffer_tickets10000_fields50,10000,3804057.0,380.406
+StringPlus_tickets100_fields1000,100,28695382.4,286953.824
+StringBuilder_tickets100_fields1000,100,830868.4,8308.684
+StringBuffer_tickets100_fields1000,100,962686.2,9626.862
