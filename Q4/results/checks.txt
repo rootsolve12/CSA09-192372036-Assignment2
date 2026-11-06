@@ -1,0 +1,11 @@
+ACCEPT,HashMap,n=100,mean_lookup_under_1ms=true
+ACCEPT,TreeMap,n=100,mean_lookup_under_1ms=true
+ACCEPT,LinkedHashMap,n=100,mean_lookup_under_1ms=true
+ACCEPT,HashMap,n=10000,mean_lookup_under_1ms=true
+ACCEPT,TreeMap,n=10000,mean_lookup_under_1ms=true
+ACCEPT,LinkedHashMap,n=10000,mean_lookup_under_1ms=true
+ACCEPT,HashMap,n=100000,mean_lookup_under_1ms=true
+ACCEPT,TreeMap,n=100000,mean_lookup_under_1ms=true
+ACCEPT,LinkedHashMap,n=100000,mean_lookup_under_1ms=true
+PASS: all maps satisfy both report orders; sorted-array lookup verified
+Measured experiments: 36; each includes 3 warmups + 5 raw runs.
