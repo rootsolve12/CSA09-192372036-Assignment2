@@ -1,0 +1,4 @@
+experiment,operations,mean_elapsed_ns,mean_ns_per_operation
+Q5_n100_20_unchanged_rankings,20,502239.2,25111.960
+Q5_n1000_20_unchanged_rankings,20,5373704.4,268685.220
+Q5_n10000_20_unchanged_rankings,20,43904206.8,2195210.340

@@ -1,0 +1,4 @@
+=== LeaderboardDemo ===
+[Eagles(9,6), Bisons(9,4), Panthers(9,4), Cobras(6,1)]
+PASS: ties, overflow, transitivity, stable-sort equivalence and copy isolation
+Measured experiments: 3; each includes 3 warmups + 5 raw runs.
