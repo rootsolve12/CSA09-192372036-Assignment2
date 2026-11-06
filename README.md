@@ -1,8 +1,6 @@
 # CSA09 — Assignment 2 (CO2)
 
-| Field | Value |
-|---|---|
-| Student name | Not provided — add before final submission |
+| Student name | B Hitesh Roy |
 | Register number | 192372036 |
 | Course code | CSA09 — Programming in Java |
 | Repository | https://github.com/rootsolve12/CSA09-192372036-Assignment2 |
@@ -50,12 +48,3 @@ Actual workspace execution is recorded in each `results/environment.json`; it is
 
 Small samples, fixed benchmark order, JVM optimization, garbage collection and environment load limit timing conclusions. High variation is reported in task tables. Heap snapshots in Q1 are not allocation profiling. Per-operation means are averages, not worst-case or percentile latency. Task explanations include operating boundaries and alternatives.
 
-## Before final submission
-
-- Add the student name.
-- Personally execute and review every program; retain code/compiler and output screenshots from that execution.
-- Preserve input designs and raw measurements, and be ready to explain them.
-- Prepare the required Word/PDF report later, with the faculty's filename format.
-- Submit the report in both GCR and SIMATS.
-
-Commits reflect actual preparation in this session; no dates or progressive-work history are fabricated.
