@@ -1,0 +1,7 @@
+experiment,operations,mean_elapsed_ns,mean_ns_per_operation
+PriorityQueue_n100_admit,100,87995.0,879.950
+PriorityQueue_n100_serve,100,71480.6,714.806
+PriorityQueue_n10000_admit,10000,715286.0,71.529
+PriorityQueue_n10000_serve,10000,2192688.0,219.269
+PriorityQueue_n100000_admit,100000,2340898.0,23.409
+PriorityQueue_n100000_serve,100000,37772387.4,377.724

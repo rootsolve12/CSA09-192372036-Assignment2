@@ -1,0 +1,7 @@
+=== Triage ===
+Meena(S1) Kumar(S1) Lata(S2) Ravi(S3) John(S3) Asha(S5)
+PREDICT: [Meena, Kumar, Lata, Noor, Ravi, John, Priya, Asha]
+OBSERVED: [Meena, Kumar, Lata, Noor, Ravi, John, Priya, Asha]
+Ageing simulation: OldMinor promoted to effective severity 1
+PASS: hand order, non-destructive display and frozen-time ageing
+Measured experiments: 6; each includes 3 warmups + 5 raw runs.
