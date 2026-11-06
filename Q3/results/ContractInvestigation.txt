@@ -1,0 +1,8 @@
+PREDICT test1: same object twice -> size 1
+OBSERVED test1 size=1
+PREDICT test2: distinct equal objects -> usually size 2
+OBSERVED equals=true,hashA=692404036,hashB=1554874502,size=2
+PREDICT test3: mutation A -> B retains size 1; lookup fails
+OBSERVED before mutation contains=true
+OBSERVED after mutation contains=false,removed=false,size=1
+PASS: fixed HashSet, TreeSet and HashMap each retain 2 students
