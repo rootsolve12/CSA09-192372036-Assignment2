@@ -1,0 +1,13 @@
+experiment,operations,mean_elapsed_ns,mean_ns_per_operation
+Original_n100_unchanged,20,683114.0,34155.700
+Cached_n100_unchanged,20,42004.2,2100.210
+Original_n100_changing,20,418218.2,20910.910
+Cached_n100_changing,20,948323.0,47416.150
+Original_n1000_unchanged,20,3420362.6,171018.130
+Cached_n1000_unchanged,20,119397.6,5969.880
+Original_n1000_changing,20,2016095.4,100804.770
+Cached_n1000_changing,20,1932629.2,96631.460
+Original_n10000_unchanged,20,44431223.6,2221561.180
+Cached_n10000_unchanged,20,2051958.8,102597.940
+Original_n10000_changing,20,45357790.6,2267889.530
+Cached_n10000_changing,20,43893505.2,2194675.260

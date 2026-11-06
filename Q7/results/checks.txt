@@ -1,0 +1,22 @@
+PREDICT: 20 unchanged reads -> original 20 sorts; cached 1 sort
+PREDICT: update before every read -> both perform 20 sorts
+SPEEDUP,n=100,mode=unchanged,value=16.263
+COUNTS,n=100,mode=unchanged,cached=false,sorts=20,comparisons=10820
+COUNTS,n=100,mode=unchanged,cached=true,sorts=1,comparisons=541
+SPEEDUP,n=100,mode=changing,value=0.441
+COUNTS,n=100,mode=changing,cached=false,sorts=20,comparisons=12113
+COUNTS,n=100,mode=changing,cached=true,sorts=20,comparisons=12113
+SPEEDUP,n=1000,mode=unchanged,value=28.647
+COUNTS,n=1000,mode=unchanged,cached=false,sorts=20,comparisons=173300
+COUNTS,n=1000,mode=unchanged,cached=true,sorts=1,comparisons=8665
+SPEEDUP,n=1000,mode=changing,value=1.043
+COUNTS,n=1000,mode=changing,cached=false,sorts=20,comparisons=174512
+COUNTS,n=1000,mode=changing,cached=true,sorts=20,comparisons=174512
+SPEEDUP,n=10000,mode=unchanged,value=21.653
+COUNTS,n=10000,mode=unchanged,cached=false,sorts=20,comparisons=2408080
+COUNTS,n=10000,mode=unchanged,cached=true,sorts=1,comparisons=120404
+SPEEDUP,n=10000,mode=changing,value=1.033
+COUNTS,n=10000,mode=changing,cached=false,sorts=20,comparisons=2409097
+COUNTS,n=10000,mode=changing,cached=true,sorts=20,comparisons=2409097
+PASS: equality, invalidation, immutable snapshots, and sort counts
+Measured experiments: 12; each includes 3 warmups + 5 raw runs.
