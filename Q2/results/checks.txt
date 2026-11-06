@@ -1,0 +1,2 @@
+PASS: playlist insertion/removal equivalence at all three sizes
+Measured experiments: 45; each includes 3 warmups + 5 raw runs.
